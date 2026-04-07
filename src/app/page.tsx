@@ -82,7 +82,7 @@ export default function Home() {
   return (
     <>
       {/* HERO */}
-      <section className="relative bg-gradient-to-br from-[#0d3d6e] via-[#1A5FA8] to-[#0E7A8A] text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-[#0f2d1c] via-[#1E4D35] to-[#2D6B4A] text-white overflow-hidden">
         <div
           className="absolute inset-0 opacity-10"
           style={{ backgroundImage: "radial-gradient(circle at 70% 50%, #fff 0%, transparent 60%)" }}
@@ -96,10 +96,10 @@ export default function Home() {
 
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
               The Chiropractor<br />UW Medicine<br />
-              <span className="text-blue-200">Recommends.</span>
+              <span className="text-green-200">Recommends.</span>
             </h1>
 
-            <p className="text-lg text-blue-100 mb-8 leading-relaxed">
+            <p className="text-lg text-green-100 mb-8 leading-relaxed">
               Seattle&apos;s most trusted clinic for back pain, neck pain, and injury — with chiropractic, massage, acupuncture, and rehabilitation all under one roof.
             </p>
 
@@ -110,7 +110,7 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="font-semibold text-white">New Patient Special</div>
-                  <div className="text-sm text-blue-200">Exam, consultation &amp; first treatment included — a $300 value.</div>
+                  <div className="text-sm text-green-200">Exam, consultation &amp; first treatment included — a $300 value.</div>
                 </div>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="font-semibold text-white">{label}</div>
-                  <div className="text-sm text-blue-200">{sub}</div>
+                  <div className="text-sm text-green-200">{sub}</div>
                 </div>
               </div>
             ))}
@@ -158,8 +158,8 @@ export default function Home() {
       </section>
 
       {/* TRUST BAR */}
-      <section className="bg-[#E8F4FB] border-b border-blue-100 py-4 px-4">
-        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-[#1A5FA8] font-medium">
+      <section className="bg-[#EAF4EE] border-b border-green-100 py-4 px-4">
+        <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-[#1E4D35] font-medium">
           <span className="flex items-center gap-1.5">
             <Star size={14} className="fill-yellow-400 text-yellow-400" /> 4.9★ Google Rating
           </span>
@@ -177,7 +177,7 @@ export default function Home() {
       {/* SERVICES */}
       <section id="services" className="max-w-6xl mx-auto px-4 py-16 md:py-20">
         <div className="text-center mb-12">
-          <div className="text-sm font-semibold text-[#1A5FA8] uppercase tracking-wider mb-2">What We Treat</div>
+          <div className="text-sm font-semibold text-[#1E4D35] uppercase tracking-wider mb-2">What We Treat</div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Comprehensive Care, One Clinic</h2>
           <p className="text-gray-500 mt-3 max-w-xl mx-auto">
             Everything you need to get out of pain and stay out — chiropractic, massage, acupuncture, rehab, and more.
@@ -189,24 +189,24 @@ export default function Home() {
             <Link
               key={title}
               href={href}
-              className="group bg-white border border-gray-100 hover:border-[#1A5FA8] rounded-2xl p-6 shadow-sm hover:shadow-md transition-all"
+              className="group bg-white border border-gray-100 hover:border-[#1E4D35] rounded-2xl p-6 shadow-sm hover:shadow-md transition-all"
             >
-              <div className="w-10 h-10 bg-[#E8F4FB] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#1A5FA8] transition-colors">
-                <Icon size={20} className="text-[#1A5FA8] group-hover:text-white transition-colors" />
+              <div className="w-10 h-10 bg-[#EAF4EE] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#1E4D35] transition-colors">
+                <Icon size={20} className="text-[#1E4D35] group-hover:text-white transition-colors" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">{title}</h3>
               <p className="text-sm text-gray-500 leading-relaxed">{desc}</p>
-              <div className="mt-4 text-sm font-semibold text-[#1A5FA8] group-hover:underline">Learn more →</div>
+              <div className="mt-4 text-sm font-semibold text-[#1E4D35] group-hover:underline">Learn more →</div>
             </Link>
           ))}
         </div>
       </section>
 
       {/* MID-PAGE CTA */}
-      <section className="bg-[#1A5FA8] text-white py-12 px-4">
+      <section className="bg-[#1E4D35] text-white py-12 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">Ready to feel better?</h2>
-          <p className="text-blue-200 mb-6">New patients get a full exam, consultation, and first treatment for just $149 — a $300 value.</p>
+          <p className="text-green-200 mb-6">New patients get a full exam, consultation, and first treatment for just $149 — a $300 value.</p>
           <a
             href="https://www.zocdoc.com"
             target="_blank"
@@ -222,7 +222,7 @@ export default function Home() {
       {/* TEAM */}
       <section id="team" className="max-w-6xl mx-auto px-4 py-16 md:py-20">
         <div className="text-center mb-12">
-          <div className="text-sm font-semibold text-[#1A5FA8] uppercase tracking-wider mb-2">Who We Are</div>
+          <div className="text-sm font-semibold text-[#1E4D35] uppercase tracking-wider mb-2">Who We Are</div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Meet Your Providers</h2>
           <p className="text-gray-500 mt-3 max-w-xl mx-auto">
             Licensed specialists in chiropractic, massage therapy, acupuncture, and rehabilitation — all under one roof in Ravenna.
@@ -232,11 +232,11 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {team.map(({ name, creds, role }) => (
             <div key={name} className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm text-center">
-              <div className="w-16 h-16 bg-[#E8F4FB] rounded-full mx-auto mb-4 flex items-center justify-center">
-                <Users size={28} className="text-[#1A5FA8]" />
+              <div className="w-16 h-16 bg-[#EAF4EE] rounded-full mx-auto mb-4 flex items-center justify-center">
+                <Users size={28} className="text-[#1E4D35]" />
               </div>
               <div className="font-semibold text-gray-900">
-                {name}{creds && <span className="text-[#1A5FA8]">, {creds}</span>}
+                {name}{creds && <span className="text-[#1E4D35]">, {creds}</span>}
               </div>
               <div className="text-sm text-gray-500 mt-1">{role}</div>
             </div>
@@ -249,7 +249,7 @@ export default function Home() {
       <section id="reviews" className="bg-gray-50 py-16 md:py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <div className="text-sm font-semibold text-[#1A5FA8] uppercase tracking-wider mb-2">Patient Reviews</div>
+            <div className="text-sm font-semibold text-[#1E4D35] uppercase tracking-wider mb-2">Patient Reviews</div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">What Our Patients Say</h2>
             <div className="flex items-center justify-center gap-1 mt-3">
               {[...Array(5)].map((_, i) => (
@@ -279,7 +279,7 @@ export default function Home() {
       {/* INSURANCE */}
       <section id="insurance" className="max-w-6xl mx-auto px-4 py-16 md:py-20">
         <div className="text-center mb-10">
-          <div className="text-sm font-semibold text-[#1A5FA8] uppercase tracking-wider mb-2">Coverage</div>
+          <div className="text-sm font-semibold text-[#1E4D35] uppercase tracking-wider mb-2">Coverage</div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Insurance Accepted</h2>
           <p className="text-gray-500 mt-3 max-w-xl mx-auto">
             We accept most major insurance plans, including UW Regence Blue Cross. Cash pay and bundle packages also available.
@@ -290,7 +290,7 @@ export default function Home() {
           {insurances.map((ins) => (
             <span
               key={ins}
-              className="bg-[#E8F4FB] text-[#1A5FA8] border border-blue-100 rounded-full px-4 py-2 text-sm font-medium"
+              className="bg-[#EAF4EE] text-[#1E4D35] border border-green-100 rounded-full px-4 py-2 text-sm font-medium"
             >
               {ins}
             </span>
@@ -299,15 +299,15 @@ export default function Home() {
 
         <p className="text-center text-sm text-gray-500">
           Not sure if we accept your plan?{" "}
-          <a href="tel:2065239000" className="text-[#1A5FA8] font-semibold hover:underline">(206) 523-9000</a>
+          <a href="tel:2065239000" className="text-[#1E4D35] font-semibold hover:underline">(206) 523-9000</a>
         </p>
       </section>
 
       {/* FINAL CTA */}
-      <section className="bg-gradient-to-r from-[#0d3d6e] to-[#1A5FA8] text-white py-16 px-4">
+      <section className="bg-gradient-to-r from-[#0f2d1c] to-[#1E4D35] text-white py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Start feeling better this week.</h2>
-          <p className="text-blue-200 mb-8 text-lg">New patients are welcome. Book online in under 2 minutes or call us directly.</p>
+          <p className="text-green-200 mb-8 text-lg">New patients are welcome. Book online in under 2 minutes or call us directly.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://www.zocdoc.com"

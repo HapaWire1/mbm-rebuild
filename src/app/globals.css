@@ -2,11 +2,14 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-  --brand-blue: #1A5FA8;
-  --brand-blue-dark: #134a85;
-  --brand-teal: #0E7A8A;
-  --brand-light: #E8F4FB;
+  --foreground: #1a1a1a;
+  --brand: #1E4D35;
+  --brand-dark: #163828;
+  --brand-mid: #2D6B4A;
+  --brand-light: #EAF4EE;
+  --brand-lighter: #F4FAF6;
+  --accent: #D97706;
+  --accent-hover: #B45309;
 }
 
 * {

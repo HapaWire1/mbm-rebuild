@@ -32,11 +32,10 @@ export default function PersonalInjuryPage() {
   return (
     <>
       {/* HERO */}
-      <section className="relative bg-gradient-to-br from-[#0f2d1c] via-[#1E4D35] to-[#2D6B4A] text-white overflow-hidden">
-        <div
-          className="absolute inset-0 opacity-10"
-          style={{ backgroundImage: "radial-gradient(circle at 70% 50%, #fff 0%, transparent 60%)" }}
-        />
+      <section className="relative min-h-[85vh] flex items-center text-white overflow-hidden">
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=80')" }} />
+        <div className="absolute inset-0 bg-[#0f2d1c]/78" />
         <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center gap-2 bg-white/15 border border-white/25 rounded-full px-4 py-1.5 text-sm font-medium mb-6">
@@ -65,7 +64,7 @@ export default function PersonalInjuryPage() {
                 href="https://www.zocdoc.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-6 py-3.5 rounded-full transition-colors text-base"
+                className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3.5 rounded-full transition-colors text-base"
               >
                 <CalendarCheck size={18} />
                 Book Assessment Now
@@ -137,8 +136,10 @@ export default function PersonalInjuryPage() {
       </section>
 
       {/* MID-PAGE CTA */}
-      <section className="bg-[#1E4D35] text-white py-12 px-4">
-        <div className="max-w-3xl mx-auto text-center">
+      <section className="relative py-16 px-4 overflow-hidden text-white">
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80')" }} />
+        <div className="absolute inset-0 bg-[#0f2d1c]/80" />
+        <div className="relative max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-3">Been in an accident? Get evaluated today.</h2>
           <p className="text-green-200 mb-6">Early treatment protects your health and your claim. Same-week appointments available.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -146,7 +147,7 @@ export default function PersonalInjuryPage() {
               href="https://www.zocdoc.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-8 py-3.5 rounded-full transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-8 py-3.5 rounded-full transition-colors"
             >
               <CalendarCheck size={18} />
               Book Assessment Now
@@ -245,8 +246,10 @@ export default function PersonalInjuryPage() {
       </section>
 
       {/* FINAL CTA */}
-      <section className="bg-gradient-to-r from-[#0f2d1c] to-[#1E4D35] text-white py-16 px-4">
-        <div className="max-w-2xl mx-auto text-center">
+      <section className="relative py-20 px-4 overflow-hidden text-white">
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80')" }} />
+        <div className="absolute inset-0 bg-[#0f2d1c]/80" />
+        <div className="relative max-w-2xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Don&apos;t let crash injuries become chronic pain.</h2>
           <p className="text-green-200 mb-8 text-lg">
             The sooner you start treatment, the better your outcome. Book an assessment today — same-week availability.
@@ -256,7 +259,7 @@ export default function PersonalInjuryPage() {
               href="https://www.zocdoc.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold px-8 py-4 rounded-full transition-colors text-base"
+              className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-8 py-4 rounded-full transition-colors text-base"
             >
               <CalendarCheck size={18} />
               Book Assessment Now

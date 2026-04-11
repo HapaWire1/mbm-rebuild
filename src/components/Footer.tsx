@@ -19,11 +19,16 @@ export default function Footer() {
           <div className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Quick Links</div>
           <ul className="space-y-2 text-sm">
             {[
-              ["Services", "/#services"],
+              ["Chiropractic Care", "/services/chiropractic"],
+              ["Acupuncture", "/services/acupuncture"],
+              ["Red Light Therapy", "/services/red-light-therapy"],
+              ["Massage Therapy", "/services/massage-therapy"],
               ["Auto Accident Care", "/personal-injury"],
-              ["Our Team", "/#team"],
-              ["Insurance Accepted", "/#insurance"],
-              ["Patient Reviews", "/#reviews"],
+              ["Our Team", "/team"],
+              ["Insurance Accepted", "/insurance"],
+              ["Patient Reviews", "/reviews"],
+              ["FAQ", "/faq"],
+              ["Contact", "/contact"],
               ["Book Appointment", "https://www.zocdoc.com"],
             ].map(([label, href]) => (
               <li key={label}>

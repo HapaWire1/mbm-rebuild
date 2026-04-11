@@ -34,6 +34,7 @@ export default function Nav() {
             <Link href="/personal-injury" className="hover:text-[#1A5FA8] transition-colors">Auto Accident</Link>
             <Link href="/team" className="hover:text-[#1A5FA8] transition-colors">Our Team</Link>
             <Link href="/insurance" className="hover:text-[#1A5FA8] transition-colors">Insurance</Link>
+            <Link href="/reviews" className="hover:text-[#1A5FA8] transition-colors">Reviews</Link>
             <Link href="/faq" className="hover:text-[#1A5FA8] transition-colors">FAQ</Link>
             <Link href="/contact" className="hover:text-[#1A5FA8] transition-colors">Contact</Link>
             <a
@@ -59,6 +60,7 @@ export default function Nav() {
             <Link href="/personal-injury" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Auto Accident</Link>
             <Link href="/team" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Our Team</Link>
             <Link href="/insurance" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Insurance</Link>
+            <Link href="/reviews" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Reviews</Link>
             <Link href="/faq" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">FAQ</Link>
             <Link href="/contact" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Contact</Link>
             <a

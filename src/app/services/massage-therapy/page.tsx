@@ -48,6 +48,11 @@ export default function MassageTherapyPage() {
           <p className="text-blue-100 text-lg mb-8 max-w-2xl">
             Swedish, deep tissue, sports, Russian, warm bamboo, cupping, and more. Three licensed therapists with decades of combined experience.
           </p>
+          <div className="bg-white/10 border border-white/20 rounded-2xl px-5 py-4 mb-6 max-w-2xl">
+            <p className="text-white/90 text-sm leading-relaxed">
+              Our massage appointments are in high demand and are currently booking about 3 months out. Need care sooner? Chiropractic and acupuncture appointments are available earlier, and massage clients can join our cancellation list for sooner openings.
+            </p>
+          </div>
           <div className="flex flex-col sm:flex-row gap-3">
             <BookBtn />
             <a href="tel:+12065239000"

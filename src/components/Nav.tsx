@@ -42,7 +42,7 @@ export default function Nav() {
               rel="noopener noreferrer"
               className="ml-2 bg-[#D97706] hover:bg-[#B45309] text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors"
             >
-              Book $149 Visit
+              Book Your First Visit
             </a>
           </div>
 
@@ -68,7 +68,7 @@ export default function Nav() {
               rel="noopener noreferrer"
               className="mt-1 bg-[#D97706] text-white px-4 py-2.5 rounded-full font-semibold text-center"
             >
-              Book $149 Visit
+              Book Your First Visit
             </a>
           </div>
         )}

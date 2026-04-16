@@ -49,7 +49,7 @@ export default function RedLightTherapyPage() {
     <main>
       {/* Hero */}
       <section className="relative min-h-[440px] flex items-center text-white bg-[#0d3d6e]">
-        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 left-6 z-10 w-60 h-60 opacity-90" />
+        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 right-6 z-10 w-60 h-60 opacity-90" />
         <div className="relative max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Red Light Therapy</p>

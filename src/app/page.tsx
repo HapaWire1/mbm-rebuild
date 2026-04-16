@@ -162,23 +162,44 @@ export default function Home() {
           <p className="text-gray-500 mt-3 max-w-xl mx-auto">Everything you need to get out of pain and stay out — chiropractic, massage, acupuncture, rehab, and more.</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map(({ title, desc, href, photo }) => (
+        {/* ── Spotlight — featured three ── */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+          {services.slice(0, 3).map(({ title, desc, href, photo }) => (
             <Link key={title} href={href}
-              className="group relative overflow-hidden rounded-2xl shadow-sm hover:shadow-lg transition-all min-h-[260px] flex flex-col justify-end">
-              {/* Photo background */}
+              className="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all min-h-[360px] flex flex-col justify-end">
               <div className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
                 style={{ backgroundImage: `url('${photo}')` }} />
-              {/* Gradient overlay — stronger at bottom */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
-              {/* Content */}
-              <div className="relative p-6">
-                <h3 className="font-bold text-white text-lg mb-1.5">{title}</h3>
-                <p className="text-sm text-white/75 leading-relaxed mb-3">{desc}</p>
-                <span className="text-amber-400 text-sm font-semibold group-hover:underline">Learn more →</span>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/10" />
+              <div className="absolute top-4 left-4">
+                <span className="bg-amber-500 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Featured</span>
+              </div>
+              <div className="relative p-7">
+                <h3 className="font-bold text-white text-2xl mb-2">{title}</h3>
+                <p className="text-sm text-white/80 leading-relaxed mb-4">{desc}</p>
+                <span className="inline-flex items-center gap-1 bg-amber-500 hover:bg-amber-400 text-white text-sm font-semibold px-4 py-2 rounded-full transition-colors">Learn more →</span>
               </div>
             </Link>
           ))}
+        </div>
+
+        {/* ── More Services ── */}
+        <div className="border-t border-gray-100 pt-8">
+          <div className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4 text-center">More Services</div>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {services.slice(3).map(({ title, desc, href, photo }) => (
+              <Link key={title} href={href}
+                className="group relative overflow-hidden rounded-2xl shadow-sm hover:shadow-lg transition-all min-h-[200px] flex flex-col justify-end">
+                <div className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                  style={{ backgroundImage: `url('${photo}')` }} />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
+                <div className="relative p-5">
+                  <h3 className="font-bold text-white text-base mb-1">{title}</h3>
+                  <p className="text-xs text-white/70 leading-relaxed mb-2">{desc}</p>
+                  <span className="text-amber-400 text-sm font-semibold group-hover:underline">Learn more →</span>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

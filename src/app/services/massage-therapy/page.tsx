@@ -43,7 +43,7 @@ export default function MassageTherapyPage() {
         <div className="relative max-w-5xl mx-auto px-4 py-20">
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Massage Therapy</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight max-w-2xl">
-            Seattle's Most Skilled Massage Therapists — Booked Out 3 Months
+            Seattle's Most Skilled Massage Therapists
           </h1>
           <p className="text-blue-100 text-lg mb-8 max-w-2xl">
             Swedish, deep tissue, sports, Russian, warm bamboo, cupping, and more. Three licensed therapists with decades of combined experience.

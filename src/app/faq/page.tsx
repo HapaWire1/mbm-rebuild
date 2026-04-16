@@ -15,7 +15,7 @@ const faqs = [
   {
     category: "New Patients",
     items: [
-      { q: "What should I expect at my first appointment?", a: "Your first visit includes a thorough health history review, orthopedic and neurological examination, postural and movement assessment, and your first treatment — all for $149. Plan for about 60–75 minutes." },
+      { q: "What should I expect at my first appointment?", a: "Your first visit includes a thorough health history review, orthopedic and neurological examination, postural and movement assessment, and your first treatment — all for $149. This is our self-pay / cash rate. Plan for about 60–75 minutes." },
       { q: "Do I need a referral?", a: "No referral is needed. Washington State allows direct access to chiropractic and massage therapy without a physician referral." },
       { q: "What should I wear?", a: "Comfortable, loose-fitting clothing is ideal. For chiropractic appointments, athletic wear works well. We provide gowns for massage if needed." },
       { q: "How do I book an appointment?", a: "You can book online through ZocDoc, or call us at (206) 523-9000. Same-day and emergency appointments are available during business hours." },
@@ -33,7 +33,7 @@ const faqs = [
   {
     category: "Massage Therapy",
     items: [
-      { q: "How far out are you booked for massage?", a: "Our massage therapists are typically booked 2–3 months out. We recommend calling to get on the schedule as early as possible, or ask about cancellation list availability." },
+      { q: "How far out are you booked for massage?", a: "Our massage therapists are in high demand — we recommend calling ahead to check availability or ask about our cancellation list." },
       { q: "What types of massage do you offer?", a: "Swedish, deep tissue, sports massage, Russian sports massage, warm bamboo, myofascial release, cupping therapy, lymphatic facilitation, trigger point therapy, and energy work. See our massage therapy page for full descriptions." },
       { q: "Is massage covered by insurance?", a: "Massage may be covered when medically necessary as part of a treatment plan. We can document medical necessity when appropriate. Call to discuss your specific situation." },
     ],

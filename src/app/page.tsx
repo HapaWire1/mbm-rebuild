@@ -19,11 +19,11 @@ const PHOTOS = {
 
 const services = [
   { title: "Chiropractic Care",        desc: "Personalized spinal adjustments and corrective care plans designed around your specific pain and wellness goals.", href: "/services/chiropractic",      photo: PHOTOS.chiro    },
-  { title: "Massage Therapy",          desc: "Swedish, deep tissue, sports, prenatal, and trigger-point massage from Seattle's most skilled therapists.",        href: "/services/massage-therapy",   photo: PHOTOS.massage  },
   { title: "Acupuncture",              desc: "Traditional and modern acupuncture for pain relief, stress, energy, and whole-body balance.",                       href: "/services/acupuncture",       photo: PHOTOS.acupunc  },
+  { title: "Red Light Therapy",        desc: "FDA-registered Prism Light Pod — 17,000 LEDs, 15-minute sessions to accelerate recovery and reduce inflammation.",  href: "/services/red-light-therapy", photo: PHOTOS.rlt      },
   { title: "Auto Accident Care",       desc: "Specialized treatment for whiplash, soft tissue injuries, and crash-related pain. We work with your insurance.",    href: "/personal-injury",            photo: PHOTOS.accident },
   { title: "Functional Rehabilitation",desc: "Targeted rehab programs to restore strength, mobility, and function after injury or surgery.",                       href: "/services/sports-rehab",      photo: PHOTOS.rehab    },
-  { title: "Red Light Therapy",        desc: "FDA-registered Prism Light Pod — 17,000 LEDs, 15-minute sessions to accelerate recovery and reduce inflammation.",  href: "/services/red-light-therapy", photo: PHOTOS.rlt      },
+  { title: "Massage Therapy",          desc: "Swedish, deep tissue, sports, prenatal, and trigger-point massage from Seattle's most skilled therapists.",        href: "/services/massage-therapy",   photo: PHOTOS.massage  },
 ];
 
 const team = [
@@ -104,7 +104,7 @@ export default function Home() {
               <div className="flex items-start gap-3">
                 <div className="bg-amber-500 text-white font-black text-2xl rounded-xl px-3 py-1 leading-tight shrink-0">$149</div>
                 <div>
-                  <div className="font-semibold text-white">New Patient Special</div>
+                  <div className="font-semibold text-white">New Patient Special <span className="text-xs font-normal text-white/60">(self-pay / cash rate)</span></div>
                   <div className="text-sm text-white/70">Exam, consultation &amp; first treatment included — a $300 value.</div>
                 </div>
               </div>

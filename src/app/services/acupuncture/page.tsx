@@ -54,7 +54,7 @@ export default function AcupuncturePage() {
       {/* Hero */}
       <section className="relative min-h-[520px] flex items-center text-white bg-cover bg-center"
         style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
-        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 left-6 z-10 w-60 h-60 opacity-90" />
+        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 right-6 z-10 w-60 h-60 opacity-90" />
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />
         <div className="relative max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>

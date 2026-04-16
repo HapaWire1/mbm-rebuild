@@ -33,6 +33,7 @@ export default function PersonalInjuryPage() {
     <>
       {/* HERO */}
       <section className="relative min-h-[85vh] flex items-center text-white overflow-hidden">
+        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 right-6 z-10 w-60 h-60 opacity-90" />
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/clinic/treatment-tables.jpg')" }} />
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />

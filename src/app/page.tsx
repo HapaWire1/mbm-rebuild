@@ -82,7 +82,7 @@ export default function Home() {
         <div className="relative max-w-6xl mx-auto px-4 w-full">
           {/* Badge — centered above both columns */}
           <div className="flex justify-center pt-24 pb-8">
-            <div className="inline-flex items-center gap-2 bg-white/15 border border-white/25 rounded-full px-6 py-3 text-sm md:text-base font-semibold text-white text-center">
+            <div className="inline-flex items-center gap-2 bg-white/15 border border-white/25 rounded-full px-8 py-3 text-base md:text-lg font-semibold text-white text-center">
               <Award size={16} className="text-amber-400 shrink-0" />
               Featured in the UW Medicine Clinical Referral Directory
             </div>

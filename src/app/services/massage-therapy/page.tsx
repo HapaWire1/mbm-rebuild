@@ -38,9 +38,9 @@ export default function MassageTherapyPage() {
       {/* Hero */}
       <section className="relative min-h-[480px] flex items-center text-white bg-cover bg-center"
         style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
+        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 left-6 z-10 w-60 h-60 opacity-90" />
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />
         <div className="relative max-w-5xl mx-auto px-4 py-20">
-          <img src="/logo/mbm-icon.png" alt="" className="w-20 h-20 mb-4 opacity-90" />
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Massage Therapy</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight max-w-2xl">
             Seattle's Most Skilled Massage Therapists — Booked Out 3 Months

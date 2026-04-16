@@ -7,7 +7,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full">
+    <header className="w-full sticky top-0 z-50">
       {/* Top bar */}
       <div className="bg-[#1A5FA8] text-white text-sm py-2 px-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
@@ -20,7 +20,7 @@ export default function Nav() {
       </div>
 
       {/* Main nav */}
-      <nav className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
+      <nav className="bg-white border-b border-gray-100 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">

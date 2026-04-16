@@ -34,7 +34,7 @@ export default function PersonalInjuryPage() {
       {/* HERO */}
       <section className="relative min-h-[85vh] flex items-center text-white overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=80')" }} />
+          style={{ backgroundImage: "url('/clinic/treatment-tables.jpg')" }} />
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />
         <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
           <div>

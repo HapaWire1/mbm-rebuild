@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, ChevronRight } from "lucide-react";
 
-const HERO_PHOTO = "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=1600&q=80";
+const HERO_PHOTO = "/clinic/massage-room.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
@@ -40,6 +40,7 @@ export default function MassageTherapyPage() {
         style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />
         <div className="relative max-w-5xl mx-auto px-4 py-20">
+          <img src="/logo/mbm-icon.png" alt="" className="w-10 h-10 mb-4 opacity-90" />
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Massage Therapy</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight max-w-2xl">
             Seattle's Most Skilled Massage Therapists — Booked Out 3 Months

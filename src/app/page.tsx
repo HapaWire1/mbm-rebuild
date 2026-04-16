@@ -6,15 +6,15 @@ import {
 
 // ── PHOTO URLS (swap for real client photos before launch) ────────────────────
 const PHOTOS = {
-  hero:     "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=80",
-  ctaMid:   "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80",
-  ctaFinal: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80",
-  chiro:    "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80",
-  massage:  "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&q=80",
-  acupunc:  "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80",
-  accident: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
-  rehab:    "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80",
-  rlt:      "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=800&q=80",
+  hero:     "/clinic/front-door.jpg",
+  ctaMid:   "/clinic/soft-tissue-room.jpg",
+  ctaFinal: "/clinic/chiro-room-diplomas.jpg",
+  chiro:    "/clinic/chiro-room.jpg",
+  massage:  "/clinic/massage-room.jpg",
+  acupunc:  "/clinic/acupuncture-detail.jpg",
+  accident: "/clinic/treatment-tables.jpg",
+  rehab:    "/clinic/soft-tissue-room.jpg",
+  rlt:      "/clinic/anatomy-charts.jpg",
 };
 
 const services = [

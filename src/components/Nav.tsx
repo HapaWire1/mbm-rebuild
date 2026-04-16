@@ -23,9 +23,8 @@ export default function Nav() {
       <nav className="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex flex-col leading-tight">
-            <span className="text-xl font-bold tracking-tight text-[#1A5FA8]">MindBody<span className="text-gray-800">MED</span></span>
-            <span className="text-[10px] text-gray-500 tracking-widest uppercase">Chiropractic · Massage · Wellness</span>
+          <Link href="/" className="flex items-center">
+            <img src="/logo/mbm-wordmark.png" alt="MindBody MED" className="h-9 w-auto" />
           </Link>
 
           {/* Desktop links */}

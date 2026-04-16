@@ -101,7 +101,7 @@ export default function TeamPage() {
       {/* Hero */}
       <section className="relative py-24 bg-[#0d3d6e] text-white text-center">
         <div className="max-w-3xl mx-auto px-4">
-          <img src="/logo/mbm-icon.png" alt="" className="w-10 h-10 mb-4 opacity-90 mx-auto" />
+          <img src="/logo/mbm-icon.png" alt="" className="w-20 h-20 mb-4 opacity-90 mx-auto" />
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Meet the Team</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
             Seattle's Most Experienced<br />Multidisciplinary Care Team

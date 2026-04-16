@@ -54,10 +54,10 @@ export default function AcupuncturePage() {
       {/* Hero */}
       <section className="relative min-h-[520px] flex items-center text-white bg-cover bg-center"
         style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
+        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 left-6 z-10 w-60 h-60 opacity-90" />
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />
         <div className="relative max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <img src="/logo/mbm-icon.png" alt="" className="w-20 h-20 mb-4 opacity-90" />
             <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Acupuncture</p>
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
               Seattle Acupuncture for Pain, Stress & Whole-Body Health

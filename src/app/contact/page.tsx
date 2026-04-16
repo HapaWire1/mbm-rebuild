@@ -14,9 +14,9 @@ export default function ContactPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="py-20 bg-[#0d3d6e] text-white text-center">
+      <section className="relative py-20 bg-[#0d3d6e] text-white text-center">
+        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 left-6 z-10 w-60 h-60 opacity-90" />
         <div className="max-w-2xl mx-auto px-4">
-          <img src="/logo/mbm-icon.png" alt="" className="w-20 h-20 mb-4 opacity-90 mx-auto" />
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Contact Us</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Get in Touch</h1>
           <p className="text-blue-100 text-lg">Call, book online, or stop by. Same-day and emergency appointments available during business hours.</p>

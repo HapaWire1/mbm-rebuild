@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <img src="/logo/mbm-wordmark.png" alt="MindBody MED" className="h-11 w-auto mb-4" />
+          <img src="/logo/mbm-wordmark.png" alt="MindBody MED" className="h-20 w-auto mb-4" />
           <p className="text-sm text-gray-400 leading-relaxed">
             Seattle&apos;s most trusted chiropractic and wellness clinic, proudly serving the Ravenna and University District neighborhoods since 2018.
           </p>

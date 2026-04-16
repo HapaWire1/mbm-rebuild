@@ -104,8 +104,8 @@ export default function Home() {
               <div className="flex items-start gap-3">
                 <div className="bg-amber-500 text-white font-black text-2xl rounded-xl px-3 py-1 leading-tight shrink-0">$149</div>
                 <div>
-                  <div className="font-semibold text-white">New Patient Special <span className="text-xs font-normal text-white/60">(self-pay / cash rate)</span></div>
-                  <div className="text-sm text-white/70">Exam, consultation &amp; first treatment included — a $300 value.</div>
+                  <div className="font-semibold text-white">New Chiropractic Patient Special <span className="text-xs font-normal text-white/60">(self-pay / cash rate)</span></div>
+                  <div className="text-sm text-white/70">Chiropractic exam, consultation &amp; first treatment included — a $300 value.</div>
                 </div>
               </div>
             </div>

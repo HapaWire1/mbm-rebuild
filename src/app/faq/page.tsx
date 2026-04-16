@@ -69,7 +69,7 @@ export default function FAQPage() {
     <main>
       {/* Hero */}
       <section className="relative py-20 bg-[#0d3d6e] text-white text-center">
-        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 right-6 z-10 w-60 h-60 opacity-90" />
+        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 right-6 z-10 w-[300px] h-[300px] opacity-90" />
         <div className="max-w-2xl mx-auto px-4">
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">FAQ</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Frequently Asked Questions</h1>

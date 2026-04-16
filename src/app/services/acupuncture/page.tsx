@@ -66,13 +66,13 @@ export default function AcupuncturePage() {
               24+ years of clinical experience. Bastyr-trained. Specializing in pain management with a technique refined over decades of practice.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <BookBtn />
+              <BookBtn label="Book My $125 Visit" />
               <CallBtn />
             </div>
           </div>
           <div className="hidden md:block bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
             <p className="font-bold text-lg mb-4">New Patient Special</p>
-            <p className="text-4xl font-extrabold text-amber-400 mb-1">$149</p>
+            <p className="text-4xl font-extrabold text-amber-400 mb-1">$125</p>
             <p className="text-blue-100 text-sm mb-4">Full intake + first acupuncture treatment</p>
             <ul className="space-y-2 text-sm">
               {["Comprehensive health history", "Traditional pulse & tongue diagnosis", "Personalized point selection", "Full treatment session included"].map(item => (
@@ -148,7 +148,7 @@ export default function AcupuncturePage() {
             <p className="text-blue-100 mb-6 leading-relaxed">
               John "Wan" Nguyen has been practicing acupuncture in Seattle since 2000. His technique uses a six-channel balance system — combining reverse imaging, body mirroring, and meridian microsystems to address the root cause of pain rather than just the symptom.
             </p>
-            <BookBtn />
+            <BookBtn label="Book My $125 Visit" />
           </div>
           <div className="flex flex-col items-center text-center">
             <Image src="/team/john-nguyen.jpg" alt="John Wan Nguyen EAMP" width={180} height={180}
@@ -175,9 +175,9 @@ export default function AcupuncturePage() {
       <section className="py-16 bg-[#0d3d6e] text-white text-center">
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="text-3xl font-extrabold mb-3">Ready to Feel Better?</h2>
-          <p className="text-blue-100 mb-8">New patient intake + first treatment — $149. Call or book online today.</p>
+          <p className="text-blue-100 mb-8">New patient intake + first treatment — $125 (self-pay / cash rate). Call or book online today.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <BookBtn />
+            <BookBtn label="Book My $125 Visit" />
             <a href="tel:+12065239000"
               className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-7 py-3.5 rounded-full border border-white/30 transition-colors">
               <Phone size={18} />

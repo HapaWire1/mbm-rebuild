@@ -73,7 +73,6 @@ const stats = [
   { stat: "4.9★", label: "Average rating" },
   { stat: "200+", label: "Google reviews" },
   { stat: "15+", label: "Years serving Seattle" },
-  { stat: "3 mo", label: "Massage wait list" },
 ];
 
 function Stars({ count }: { count: number }) {

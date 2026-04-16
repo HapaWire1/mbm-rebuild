@@ -33,7 +33,7 @@ const faqs = [
   {
     category: "Massage Therapy",
     items: [
-      { q: "How far out are you booked for massage?", a: "Our massage therapists are in high demand — we recommend calling ahead to check availability or ask about our cancellation list." },
+      { q: "How far out are you booked for massage?", a: "Our massage appointments are in high demand and are currently booking about 3 months out. Need care sooner? Chiropractic and acupuncture appointments are available earlier, and massage clients can join our cancellation list for sooner openings." },
       { q: "What types of massage do you offer?", a: "Swedish, deep tissue, sports massage, Russian sports massage, warm bamboo, myofascial release, cupping therapy, lymphatic facilitation, trigger point therapy, and energy work. See our massage therapy page for full descriptions." },
       { q: "Is massage covered by insurance?", a: "Massage may be covered when medically necessary as part of a treatment plan. We can document medical necessity when appropriate. Call to discuss your specific situation." },
     ],

@@ -79,14 +79,18 @@ export default function Home() {
         {/* Dark green overlay */}
         <div className="absolute inset-0 bg-[#0d3d6e]/75" />
 
-        <div className="relative max-w-6xl mx-auto px-4 py-24 w-full grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-white/15 border border-white/25 rounded-full px-4 py-1.5 text-sm font-medium text-white mb-6">
-              <Award size={14} className="text-amber-400" />
+        <div className="relative max-w-6xl mx-auto px-4 w-full">
+          {/* Badge — centered above both columns */}
+          <div className="flex justify-center pt-24 pb-8">
+            <div className="inline-flex items-center gap-2 bg-white/15 border border-white/25 rounded-full px-6 py-3 text-sm md:text-base font-semibold text-white text-center">
+              <Award size={16} className="text-amber-400 shrink-0" />
               Featured in the UW Medicine Clinical Referral Directory
             </div>
+          </div>
 
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4 text-white">
+          <div className="pb-24 grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-4 text-white">
               The Chiropractor<br />UW Medicine<br />
               <span className="text-amber-400">Recommends.</span>
             </h1>
@@ -130,6 +134,7 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
           </div>
         </div>
       </section>

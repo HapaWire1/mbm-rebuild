@@ -18,9 +18,9 @@ const PHOTOS = {
 };
 
 const services = [
+  { title: "Red Light Therapy",        desc: "FDA-registered Prism Light Pod — 17,000 LEDs, 15-minute sessions to accelerate recovery and reduce inflammation.",  href: "/services/red-light-therapy", photo: PHOTOS.rlt      },
   { title: "Chiropractic Care",        desc: "Personalized spinal adjustments and corrective care plans designed around your specific pain and wellness goals.", href: "/services/chiropractic",      photo: PHOTOS.chiro    },
   { title: "Acupuncture",              desc: "Traditional and modern acupuncture for pain relief, stress, energy, and whole-body balance.",                       href: "/services/acupuncture",       photo: PHOTOS.acupunc  },
-  { title: "Red Light Therapy",        desc: "FDA-registered Prism Light Pod — 17,000 LEDs, 15-minute sessions to accelerate recovery and reduce inflammation.",  href: "/services/red-light-therapy", photo: PHOTOS.rlt      },
   { title: "Auto Accident Care",       desc: "Specialized treatment for whiplash, soft tissue injuries, and crash-related pain. We work with your insurance.",    href: "/personal-injury",            photo: PHOTOS.accident },
   { title: "Functional Rehabilitation",desc: "Targeted rehab programs to restore strength, mobility, and function after injury or surgery.",                       href: "/services/sports-rehab",      photo: PHOTOS.rehab    },
   { title: "Massage Therapy",          desc: "Swedish, deep tissue, sports, prenatal, and trigger-point massage from Seattle's most skilled therapists.",        href: "/services/massage-therapy",   photo: PHOTOS.massage  },

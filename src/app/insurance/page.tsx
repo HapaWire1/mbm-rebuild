@@ -39,7 +39,7 @@ export default function InsurancePage() {
       {/* Hero */}
       <section className="py-20 bg-[#0d3d6e] text-white text-center">
         <div className="max-w-2xl mx-auto px-4">
-          <img src="/logo/mbm-icon.png" alt="" className="w-10 h-10 mb-4 opacity-90 mx-auto" />
+          <img src="/logo/mbm-icon.png" alt="" className="w-20 h-20 mb-4 opacity-90 mx-auto" />
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Insurance</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">We Work With Your Insurance</h1>
           <p className="text-blue-100 text-lg">Most major plans accepted. No referral needed. Questions? Call us and we'll check your benefits before your visit.</p>

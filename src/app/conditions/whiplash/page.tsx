@@ -35,7 +35,7 @@ export default function WhiplashPage() {
         style={{ backgroundImage: `url('${HERO}')` }}>
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />
         <div className="relative max-w-5xl mx-auto px-4 py-20">
-          <img src="/logo/mbm-icon.png" alt="" className="w-10 h-10 mb-4 opacity-90" />
+          <img src="/logo/mbm-icon.png" alt="" className="w-20 h-20 mb-4 opacity-90" />
           <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Conditions We Treat</p>
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight max-w-2xl">Whiplash Treatment in Seattle</h1>
           <p className="text-blue-100 text-lg mb-8 max-w-xl">

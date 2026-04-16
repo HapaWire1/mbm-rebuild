@@ -24,7 +24,7 @@ export default function Nav() {
         <div className="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <img src="/logo/mbm-wordmark.png" alt="MindBody MED" className="h-9 w-auto" />
+            <img src="/logo/mbm-wordmark.png" alt="MindBody MED" className="h-11 w-auto" />
           </Link>
 
           {/* Desktop links */}

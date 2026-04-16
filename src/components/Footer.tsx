@@ -28,7 +28,7 @@ export default function Footer() {
               ["Patient Reviews", "/reviews"],
               ["FAQ", "/faq"],
               ["Contact", "/contact"],
-              ["Book Appointment", "https://www.zocdoc.com"],
+              ["Book Appointment", "https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"],
             ].map(([label, href]) => (
               <li key={label}>
                 <Link href={href} className="hover:text-white transition-colors">{label}</Link>

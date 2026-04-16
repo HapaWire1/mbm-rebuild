@@ -2,7 +2,7 @@ import { Phone, MapPin, Clock, CalendarCheck, Mail } from "lucide-react";
 
 function BookBtn({ label = "Book Online", className = "" }: { label?: string; className?: string }) {
   return (
-    <a href="https://www.zocdoc.com" target="_blank" rel="noopener noreferrer"
+    <a href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true" target="_blank" rel="noopener noreferrer"
       className={`inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-7 py-3.5 rounded-full transition-colors shadow-lg ${className}`}>
       <CalendarCheck size={18} />
       {label}

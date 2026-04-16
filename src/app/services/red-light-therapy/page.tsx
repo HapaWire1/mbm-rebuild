@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, Zap, Clock, Activity } from "lucide-react";
 
-const HERO_PHOTO = "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=1600&q=80";
 const MID_PHOTO  = "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1600&q=80";
 
 function BookBtn({ label = "Book a Session", className = "" }: { label?: string; className?: string }) {
@@ -49,11 +48,10 @@ export default function RedLightTherapyPage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative min-h-[520px] flex items-center text-white bg-cover bg-center"
-        style={{ backgroundImage: `url('${HERO_PHOTO}')` }}>
-        <div className="absolute inset-0 bg-[#0d3d6e]/78" />
+      <section className="relative min-h-[440px] flex items-center text-white bg-[#0d3d6e]">
         <div className="relative max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
+            <img src="/logo/mbm-icon.png" alt="" className="w-10 h-10 mb-4 opacity-90" />
             <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Red Light Therapy</p>
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
               The Prism Light Pod — Seattle's Premier Red Light Therapy

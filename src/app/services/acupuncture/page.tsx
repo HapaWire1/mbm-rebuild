@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, ChevronRight } from "lucide-react";
 
-const HERO_PHOTO = "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1600&q=80";
+const HERO_PHOTO = "/clinic/acupuncture-detail.jpg";
 const MID_PHOTO  = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
@@ -57,6 +57,7 @@ export default function AcupuncturePage() {
         <div className="absolute inset-0 bg-[#0d3d6e]/78" />
         <div className="relative max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
+            <img src="/logo/mbm-icon.png" alt="" className="w-10 h-10 mb-4 opacity-90" />
             <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Acupuncture</p>
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
               Seattle Acupuncture for Pain, Stress & Whole-Body Health

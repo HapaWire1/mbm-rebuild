@@ -37,7 +37,7 @@ export default function Nav() {
             <Link href="/faq" className="hover:text-[#1A5FA8] transition-colors">FAQ</Link>
             <Link href="/contact" className="hover:text-[#1A5FA8] transition-colors">Contact</Link>
             <a
-              href="https://www.zocdoc.com"
+              href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-2 bg-[#D97706] hover:bg-[#B45309] text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors"
@@ -63,7 +63,7 @@ export default function Nav() {
             <Link href="/faq" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">FAQ</Link>
             <Link href="/contact" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Contact</Link>
             <a
-              href="https://www.zocdoc.com"
+              href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-1 bg-[#D97706] text-white px-4 py-2.5 rounded-full font-semibold text-center"

@@ -26,7 +26,7 @@ export default function RootLayout({
         {/* Mobile sticky bottom bar */}
         <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 shadow-lg px-4 py-3 flex items-center gap-3">
           <a
-            href="https://www.zocdoc.com"
+            href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 bg-[#D97706] hover:bg-[#B45309] text-white text-sm font-bold py-3 rounded-full text-center transition-colors"

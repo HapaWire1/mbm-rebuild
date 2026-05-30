@@ -73,10 +73,10 @@ export default function RedLightTherapyV2Page() {
           <div>
             <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Red Light Therapy</p>
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
-              The Prism Light Pod — Seattle's Premier Red Light Therapy
+              The Prism Light Pod — Voted the #1 Red Light Therapy Bed on the Market
             </h1>
             <p className="text-blue-100 text-lg mb-8">
-              FDA-registered. 17,000 LEDs. Full-body coverage in 15 minutes. Voted the #1 red light therapy device on the market — now available in Seattle's Ravenna neighborhood.
+              FDA-registered. 17,000 LEDs. Full-body coverage in 15 minutes. The choice of professional sports franchises worldwide. Now available in Seattle's Ravenna neighborhood.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <BookBtn />

@@ -68,7 +68,7 @@ export default function RedLightTherapyV2Page() {
       <section className="relative min-h-[440px] flex items-center text-white bg-[#0d3d6e]"
         style={{ backgroundImage: "url('/pod/pod-closed.png')", backgroundSize: "cover", backgroundPosition: "center 30%" }}>
         <div className="absolute inset-0 bg-[#0d3d6e]/75" />
-        <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 right-6 z-10 w-[300px] h-[300px] opacity-90" />
+        <img src="/logo/mbm-icon.png" alt="" className="hidden md:block absolute top-6 right-6 z-10 w-[300px] h-[300px] opacity-90" />
         <div className="relative max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-amber-400 font-semibold uppercase tracking-widest text-sm mb-3">Red Light Therapy</p>
@@ -76,7 +76,7 @@ export default function RedLightTherapyV2Page() {
               The Prism Light Pod — Seattle's Premier Red Light Therapy
             </h1>
             <p className="text-blue-100 text-lg mb-8">
-              FDA-registered. 17,000 LEDs. Full-body coverage in 15 minutes. Used by elite athletes and now available in Seattle's Ravenna neighborhood.
+              FDA-registered. 17,000 LEDs. Full-body coverage in 15 minutes. Voted the #1 red light therapy device on the market — now available in Seattle's Ravenna neighborhood.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <BookBtn />

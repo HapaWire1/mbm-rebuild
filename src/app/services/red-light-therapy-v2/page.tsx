@@ -298,8 +298,8 @@ export default function RedLightTherapyV2Page() {
         style={{ backgroundImage: `url('${MID_PHOTO}')` }}>
         <div className="absolute inset-0 bg-[#0d3d6e]/80" />
         <div className="relative max-w-2xl mx-auto px-4">
-          <h2 className="text-3xl font-extrabold mb-4">Pair It With Chiropractic or Massage</h2>
-          <p className="text-blue-100 mb-8 text-lg">Red light therapy works best as part of a comprehensive care plan. Ask about combining your session with a chiropractic adjustment or massage for maximum results.</p>
+          <h2 className="text-3xl font-extrabold mb-4">Pair It With Chiropractic or Acupuncture</h2>
+          <p className="text-blue-100 mb-8 text-lg">Red light therapy works best as part of a comprehensive care plan. Ask about combining your session with a chiropractic adjustment or acupuncture for maximum results.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <BookBtn />
             <CallBtn />

@@ -36,7 +36,7 @@ export default function Nav() {
             <Link href="/reviews" className="hover:text-[#1A5FA8] transition-colors">Reviews</Link>
             <Link href="/faq" className="hover:text-[#1A5FA8] transition-colors">FAQ</Link>
             <Link href="/contact" className="hover:text-[#1A5FA8] transition-colors">Contact</Link>
-            <Link href="/appointments" className="hover:text-[#1A5FA8] transition-colors">Appointments</Link>
+            <Link href="/appointments-v2" className="hover:text-[#1A5FA8] transition-colors">Appointments</Link>
             <a
               href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
               target="_blank"
@@ -63,7 +63,7 @@ export default function Nav() {
             <Link href="/reviews" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Reviews</Link>
             <Link href="/faq" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">FAQ</Link>
             <Link href="/contact" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Contact</Link>
-            <Link href="/appointments" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Appointments</Link>
+            <Link href="/appointments-v2" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Appointments</Link>
             <a
               href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
               target="_blank"

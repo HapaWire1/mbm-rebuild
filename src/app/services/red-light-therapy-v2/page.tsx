@@ -4,7 +4,7 @@ import { CalendarCheck, Phone, CheckCircle, Zap, Clock, Activity, ShieldCheck, C
 
 function BookBtn({ label = "Book a Session", className = "" }: { label?: string; className?: string }) {
   return (
-    <a href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true" target="_blank" rel="noopener noreferrer"
+    <a href="https://ca.clinicdr.com/website-forms/?uid=c3eefb8461dc258b225ab3a2339c0a172fcceeafae4458c06f292c829b7cf202&tg=m07" target="_blank" rel="noopener noreferrer"
       className={`inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-7 py-3.5 rounded-full transition-colors shadow-lg ${className}`}>
       <CalendarCheck size={18} />
       {label}

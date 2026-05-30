@@ -190,26 +190,8 @@ export default function RedLightTherapyV2Page() {
         </div>
       </section>
 
-      {/* ── Benefits ─────────────────────────────────────────── */}
-      <section className="py-16 bg-white">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <p className="text-[#1A5FA8] font-semibold uppercase tracking-widest text-sm mb-2">Benefits</p>
-            <h2 className="text-3xl font-extrabold text-gray-900">What Red Light Therapy Does for You</h2>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {benefits.map(b => (
-              <div key={b.title} className="bg-gray-50 rounded-xl p-6 border border-gray-100">
-                <h3 className="font-bold text-gray-900 mb-2">{b.title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{b.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── Programs ─────────────────────────────────────────── */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <div className="text-center mb-10">
             <p className="text-[#1A5FA8] font-semibold uppercase tracking-widest text-sm mb-2">Programs</p>
@@ -251,6 +233,24 @@ export default function RedLightTherapyV2Page() {
           <div className="flex flex-wrap justify-center gap-3">
             {conditions.map(c => (
               <span key={c} className="bg-[#E8F4FB] text-[#1A5FA8] font-medium px-4 py-2 rounded-full text-sm">{c}</span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Benefits ─────────────────────────────────────────── */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <p className="text-[#1A5FA8] font-semibold uppercase tracking-widest text-sm mb-2">Benefits</p>
+            <h2 className="text-3xl font-extrabold text-gray-900">What Red Light Therapy Does for You</h2>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {benefits.map(b => (
+              <div key={b.title} className="bg-white rounded-xl p-6 border border-gray-100">
+                <h3 className="font-bold text-gray-900 mb-2">{b.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{b.desc}</p>
+              </div>
             ))}
           </div>
         </div>

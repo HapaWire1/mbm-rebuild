@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarCheck, Phone, Award, GraduationCap } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Our Team | Seattle Chiropractors & Wellness Specialists | MindBody Med" },
+  description: "Meet Dr. John Chevigny, Dr. Ford, and the MindBody Med team — Seattle's most trusted chiropractic and wellness practitioners.",
+};
+
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
     <a href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true" target="_blank" rel="noopener noreferrer"

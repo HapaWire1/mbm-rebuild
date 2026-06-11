@@ -1,5 +1,10 @@
 import { Star, CalendarCheck, Phone } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Patient Reviews | MindBody Med Seattle — 4.9★ Rated" },
+  description: "See what Seattle patients say about MindBody Med. 4.9-star rated chiropractic, massage, acupuncture, and red light therapy in Ravenna.",
+};
+
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
     <a href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true" target="_blank" rel="noopener noreferrer"

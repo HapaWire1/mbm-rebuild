@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Functional Rehabilitation Seattle | Sports Injury Care | MindBody Med" },
+  description: "Seattle sports rehab for athletes and active patients. Restore strength, mobility, and function after injury with targeted rehabilitation programs.",
+};
+
 const HERO_PHOTO = "/clinic/soft-tissue-room.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

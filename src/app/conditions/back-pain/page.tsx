@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Back Pain Treatment Seattle | Chiropractic & Red Light Therapy" },
+  description: "Seattle chiropractors treat back pain with personalized care plans, spinal adjustments, and red light therapy. The Chiropractor UW Medicine Recommends.",
+};
+
 const HERO = "/clinic/chiro-room-diplomas.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { CalendarCheck, Phone } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "FAQ | Seattle Chiropractic, Massage & Red Light Therapy | MindBody Med" },
+  description: "Answers to common questions about chiropractic care, massage, acupuncture, red light therapy, and auto accident treatment at MindBody Med Seattle.",
+};
+
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
     <a href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true" target="_blank" rel="noopener noreferrer"
@@ -64,9 +69,22 @@ const faqs = [
   },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.flatMap((cat) =>
+    cat.items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    }))
+  ),
+};
+
 export default function FAQPage() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* Hero */}
       <section className="relative py-20 bg-[#0d3d6e] text-white text-center">
         <img src="/logo/mbm-icon.png" alt="" className="absolute top-6 right-6 z-10 w-[300px] h-[300px] opacity-90" />

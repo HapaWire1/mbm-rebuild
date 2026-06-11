@@ -4,6 +4,11 @@ import {
   Activity, Zap, Heart, Shield, Users, Award
 } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Seattle Chiropractor, Massage & Acupuncture | MindBody Med Ravenna" },
+  description: "MindBody Med is Seattle's most trusted chiropractic and wellness clinic, featured in the UW Medicine Clinical Referral Directory. $149 New Patient Special. Serving Ravenna & the U District.",
+};
+
 // ── PHOTO URLS (swap for real client photos before launch) ────────────────────
 const PHOTOS = {
   hero:     "/clinic/front-door.jpg",

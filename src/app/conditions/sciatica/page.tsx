@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, AlertTriangle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Sciatica Treatment Seattle | Chiropractic Relief | MindBody Med" },
+  description: "Seattle sciatica specialists. Chiropractic adjustments and targeted rehabilitation to relieve sciatic nerve pain and restore mobility without surgery.",
+};
+
 const HERO = "/clinic/chiro-room-diplomas.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

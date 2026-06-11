@@ -1,5 +1,10 @@
 import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Shoulder Pain Treatment Seattle | Chiropractic & Rehab | MindBody Med" },
+  description: "Seattle shoulder pain treatment — rotator cuff, impingement, and chronic shoulder injuries. Chiropractic and functional rehab in Ravenna.",
+};
+
 const HERO = "/clinic/soft-tissue-room.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

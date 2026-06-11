@@ -1,5 +1,10 @@
 import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Nerve Pain Treatment Seattle | Neuropathy & Radiculopathy | MindBody Med" },
+  description: "Seattle chiropractic care for nerve pain, neuropathy, and radiculopathy. Address compressed nerves and inflammation without medication.",
+};
+
 const HERO = "/clinic/soft-tissue-room.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

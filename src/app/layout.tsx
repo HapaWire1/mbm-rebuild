@@ -8,8 +8,56 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Seattle Chiropractor, Massage & Acupuncture | MindBody Med Ravenna",
-  description: "MindBody Med is Seattle's most trusted chiropractic and wellness clinic, featured in the UW Medicine Clinical Referral Directory. $149 New Patient Special. Serving Ravenna & the U District.",
+  metadataBase: new URL("https://mindbodymedseattle.com"),
+  title: {
+    default: "Seattle Chiropractor, Massage & Acupuncture | MindBody Med Ravenna",
+    template: "%s | MindBody Med Seattle",
+  },
+  description:
+    "MindBody Med is Seattle's most trusted chiropractic and wellness clinic, featured in the UW Medicine Clinical Referral Directory. $149 New Patient Special. Serving Ravenna & the U District.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://mindbodymedseattle.com",
+    siteName: "MindBody Med Seattle",
+    images: [{ url: "/logo/mbm-icon.png", width: 512, height: 512, alt: "MindBody Med Seattle" }],
+  },
+  twitter: { card: "summary" },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": ["MedicalBusiness", "LocalBusiness"],
+  name: "Mind Body Medicine Seattle",
+  alternateName: "MindBody Med",
+  description:
+    "Seattle's most trusted chiropractic and wellness clinic, featured in the UW Medicine Clinical Referral Directory.",
+  url: "https://mindbodymedseattle.com",
+  telephone: "+12065239000",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "2705 NE 65th St",
+    addressLocality: "Seattle",
+    addressRegion: "WA",
+    postalCode: "98115",
+    addressCountry: "US",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 47.6757,
+    longitude: -122.2941,
+  },
+  image: "https://mindbodymedseattle.com/logo/mbm-icon.png",
+  priceRange: "$$",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    ratingCount: "200",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  hasMap: "https://maps.google.com/?q=2705+NE+65th+St,+Seattle,+WA+98115",
+  sameAs: ["https://www.yelp.com/biz/mindbody-med-seattle"],
 };
 
 export default function RootLayout({
@@ -20,6 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />

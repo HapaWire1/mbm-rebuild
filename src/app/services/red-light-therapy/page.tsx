@@ -2,6 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { CalendarCheck, Phone, CheckCircle, Zap, Clock, Activity, ShieldCheck, Cpu, Leaf } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Red Light Therapy Seattle | Prism Light Pod | MindBody Med" },
+  description: "Seattle's only chiropractic clinic with an FDA-registered Prism Light Pod. 17,000 LEDs, 15-minute full-body red & near-infrared light therapy. Book online.",
+};
+
 function BookBtn({ label = "Book a Session", className = "" }: { label?: string; className?: string }) {
   return (
     <a href="https://ca.clinicdr.com/website-forms/?uid=c3eefb8461dc258b225ab3a2339c0a172fcceeafae4458c06f292c829b7cf202&tg=m07" target="_blank" rel="noopener noreferrer"

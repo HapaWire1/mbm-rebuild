@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, AlertTriangle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Herniated Disc Treatment Seattle | Non-Surgical Relief | MindBody Med" },
+  description: "Non-surgical herniated disc treatment in Seattle. Chiropractic adjustments and rehabilitation to relieve nerve pressure and restore mobility.",
+};
+
 const HERO = "/clinic/chiro-room-diplomas.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

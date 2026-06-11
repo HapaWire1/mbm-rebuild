@@ -3,6 +3,7 @@ import { CalendarCheck, Phone, Clock, UserPlus, RefreshCw, ArrowRight } from "lu
 export const metadata = {
   title: "Book an Appointment | MindBody Med Seattle",
   description: "Book an appointment at MindBody Med in Seattle's Ravenna neighborhood.",
+  robots: { index: false, follow: false },
 };
 
 export default function AppointmentsV2Page() {

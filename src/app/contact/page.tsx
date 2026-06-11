@@ -1,5 +1,10 @@
 import { Phone, MapPin, Clock, CalendarCheck, Mail } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Contact MindBody Med Seattle | Book an Appointment" },
+  description: "Contact Mind Body Medicine in Seattle's Ravenna neighborhood. Call (206) 523-9000, book online, or visit 2705 NE 65th St, Seattle WA 98115.",
+};
+
 function BookBtn({ label = "Book Online", className = "" }: { label?: string; className?: string }) {
   return (
     <a href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true" target="_blank" rel="noopener noreferrer"

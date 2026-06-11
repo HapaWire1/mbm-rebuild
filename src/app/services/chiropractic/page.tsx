@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, Award, ChevronRight } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Chiropractor in Seattle | The Chiropractor UW Medicine Recommends" },
+  description: "Top-rated Seattle chiropractor in Ravenna. Dr. Chevigny & Dr. Ford — spinal adjustments, sports injuries & corrective care. $149 new patient special.",
+};
+
 const HERO_PHOTO = "/clinic/chiro-room.jpg";
 const MID_PHOTO  = "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=80";
 

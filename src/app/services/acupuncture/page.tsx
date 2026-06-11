@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, ChevronRight } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Acupuncture Seattle | Pain, Stress & Wellness | MindBody Med" },
+  description: "Seattle acupuncture for pain, stress, insomnia, and whole-body health. Serving Ravenna, U District & North Seattle. Book online or call (206) 523-9000.",
+};
+
 const HERO_PHOTO = "/clinic/acupuncture-detail.jpg";
 const MID_PHOTO  = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80";
 

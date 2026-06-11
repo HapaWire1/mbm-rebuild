@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, HelpCircle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Insurance & Payment | MindBody Med Seattle" },
+  description: "MindBody Med accepts most major insurance plans. See accepted insurers or ask about our $149 cash new patient special.",
+};
+
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
     <a href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true" target="_blank" rel="noopener noreferrer"

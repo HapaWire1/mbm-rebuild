@@ -1,5 +1,10 @@
 import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Neck Pain Treatment Seattle | Chiropractic Care | MindBody Med" },
+  description: "Seattle neck pain specialists. Chiropractic and soft tissue therapy for stiffness, radiating pain, and tech neck. Book a same-day appointment.",
+};
+
 const HERO = "/clinic/chiro-room-diplomas.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

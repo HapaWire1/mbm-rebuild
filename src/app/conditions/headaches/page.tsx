@@ -1,5 +1,10 @@
 import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Headache & Migraine Treatment Seattle | MindBody Med" },
+  description: "Seattle chiropractic care for cervicogenic headaches and migraines. Address the root cause — not just symptoms. Serving Ravenna & North Seattle.",
+};
+
 const HERO = "/clinic/anatomy-charts.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, ChevronRight } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Massage Therapy Seattle | Deep Tissue, Sports & More | MindBody Med" },
+  description: "Seattle's most skilled massage therapists — Swedish, deep tissue, sports, prenatal & cupping. Located in Ravenna. Currently booking ~3 months out.",
+};
+
 const HERO_PHOTO = "/clinic/massage-room.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

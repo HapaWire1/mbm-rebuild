@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, AlertTriangle } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Whiplash Treatment Seattle | Auto Accident Care | MindBody Med" },
+  description: "Seattle whiplash and auto accident injury specialists. Immediate chiropractic care for neck pain, headaches, and soft tissue injuries after a crash.",
+};
+
 const HERO = "/clinic/chiro-room-diplomas.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {

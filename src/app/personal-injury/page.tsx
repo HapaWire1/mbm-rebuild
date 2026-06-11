@@ -1,5 +1,10 @@
 import { CalendarCheck, Phone, Shield, CheckCircle, AlertCircle, Clock, FileText, Activity } from "lucide-react";
 
+export const metadata = {
+  title: { absolute: "Auto Accident & Personal Injury Care Seattle | MindBody Med" },
+  description: "Injured in a car accident in Seattle? We specialize in whiplash and soft tissue injuries. PIP insurance accepted — no out-of-pocket cost in most cases.",
+};
+
 const injuries = [
   { title: "Whiplash", desc: "The most common auto injury. Neck pain, stiffness, and headaches often appear 24–72 hours after impact — don't wait." },
   { title: "Herniated Disc", desc: "Crash forces can rupture spinal discs, causing radiating pain, numbness, or weakness in the arms or legs." },

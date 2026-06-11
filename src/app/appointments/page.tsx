@@ -3,6 +3,7 @@ import { CalendarCheck, Phone, Clock } from "lucide-react";
 export const metadata = {
   title: "Book an Appointment | MindBody Med Seattle",
   description: "Book an appointment at MindBody Med in Seattle's Ravenna neighborhood. Schedule online via ZocDoc or ChiroSpring, or call us at (206) 523-9000.",
+  robots: { index: false, follow: false },
 };
 
 export default function AppointmentsPage() {

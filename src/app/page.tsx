@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import {
   Star, CheckCircle, Phone, CalendarCheck,
   Activity, Zap, Heart, Shield, Users, Award
@@ -54,7 +54,7 @@ const insurances = [
 // ── SHARED CTA BUTTON ─────────────────────────────────────────────────────────
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
-    <a href="/appointments"
+    <a href="/appointments-v2"
       className={`inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-7 py-3.5 rounded-full transition-colors shadow-lg ${className}`}>
       <CalendarCheck size={18} />
       {label}

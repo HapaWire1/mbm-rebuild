@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Phone, MapPin, Clock } from "lucide-react";
 
 export default function Footer() {
@@ -28,7 +28,7 @@ export default function Footer() {
               ["Patient Reviews", "/reviews"],
               ["FAQ", "/faq"],
               ["Contact", "/contact"],
-              ["Book Appointment", "/appointments"],
+              ["Book Appointment", "/appointments-v2"],
             ].map(([label, href]) => (
               <li key={label}>
                 <Link href={href} className="hover:text-white transition-colors">{label}</Link>

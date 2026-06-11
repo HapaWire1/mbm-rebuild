@@ -1,4 +1,4 @@
-import { Star, CalendarCheck, Phone } from "lucide-react";
+﻿import { Star, CalendarCheck, Phone } from "lucide-react";
 
 export const metadata = {
   title: { absolute: "Patient Reviews | MindBody Med Seattle — 4.9★ Rated" },
@@ -7,7 +7,7 @@ export const metadata = {
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
-    <a href="/appointments"
+    <a href="/appointments-v2"
       className={`inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-7 py-3.5 rounded-full transition-colors shadow-lg ${className}`}>
       <CalendarCheck size={18} />
       {label}

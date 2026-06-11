@@ -1,4 +1,4 @@
-import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
+﻿import { CalendarCheck, Phone, CheckCircle } from "lucide-react";
 
 export const metadata = {
   title: { absolute: "Neck Pain Treatment Seattle | Chiropractic Care | MindBody Med" },
@@ -9,7 +9,7 @@ const HERO = "/clinic/chiro-room-diplomas.jpg";
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
-    <a href="/appointments"
+    <a href="/appointments-v2"
       className={`inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-7 py-3.5 rounded-full transition-colors shadow-lg ${className}`}>
       <CalendarCheck size={18} />{label}
     </a>

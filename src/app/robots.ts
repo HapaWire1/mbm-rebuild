@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/appointments-v2",
+      disallow: "/appointments",
     },
     sitemap: "https://mindbodymedseattle.com/sitemap.xml",
   };

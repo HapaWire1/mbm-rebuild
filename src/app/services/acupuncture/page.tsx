@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { CalendarCheck, Phone, CheckCircle, ChevronRight } from "lucide-react";
 
@@ -12,7 +12,7 @@ const MID_PHOTO  = "https://images.unsplash.com/photo-1506905925346-21bda4d32df4
 
 function BookBtn({ label = "Book My $149 Visit", className = "" }: { label?: string; className?: string }) {
   return (
-    <a href="/appointments"
+    <a href="/appointments-v2"
       className={`inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-7 py-3.5 rounded-full transition-colors shadow-lg ${className}`}>
       <CalendarCheck size={18} />
       {label}

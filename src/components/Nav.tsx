@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState } from "react";
 import Link from "next/link";
 import { Phone, Menu, X } from "lucide-react";
@@ -38,7 +38,7 @@ export default function Nav() {
             <Link href="/contact" className="hover:text-[#1A5FA8] transition-colors">Contact</Link>
             <Link href="/appointments-v2" className="hover:text-[#1A5FA8] transition-colors">Appointments</Link>
             <a
-              href="/appointments"
+              href="/appointments-v2"
               className="ml-2 bg-[#D97706] hover:bg-[#B45309] text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors"
             >
               Book Your First Visit
@@ -63,7 +63,7 @@ export default function Nav() {
             <Link href="/contact" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Contact</Link>
             <Link href="/appointments-v2" onClick={() => setOpen(false)} className="hover:text-[#1A5FA8]">Appointments</Link>
             <a
-              href="/appointments"
+              href="/appointments-v2"
               className="mt-1 bg-[#D97706] text-white px-4 py-2.5 rounded-full font-semibold text-center"
             >
               Book Your First Visit

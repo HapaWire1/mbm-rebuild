@@ -67,9 +67,7 @@ export default function PersonalInjuryPage() {
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/appointments"
                 className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-6 py-3.5 rounded-full transition-colors text-base"
               >
                 <CalendarCheck size={18} />
@@ -150,9 +148,7 @@ export default function PersonalInjuryPage() {
           <p className="text-blue-200 mb-6">Early treatment protects your health and your claim. Same-week appointments available.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/appointments"
               className="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-8 py-3.5 rounded-full transition-colors"
             >
               <CalendarCheck size={18} />
@@ -262,9 +258,7 @@ export default function PersonalInjuryPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://www.zocdoc.com/practice/mindbody-medicine-150405?isNewPatient=true"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/appointments"
               className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-white font-bold px-8 py-4 rounded-full transition-colors text-base"
             >
               <CalendarCheck size={18} />

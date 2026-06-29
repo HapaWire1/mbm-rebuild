@@ -1,6 +1,6 @@
 ﻿import Image from "next/image";
 import Link from "next/link";
-import { CalendarCheck, Phone, CheckCircle, Award, ChevronRight } from "lucide-react";
+import { CalendarCheck, Phone, CheckCircle, Award, ChevronRight, ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: { absolute: "Chiropractor in Seattle | The Chiropractor UW Medicine Recommends" },
@@ -170,6 +170,21 @@ export default function ChiropracticPage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Combo Services Callout */}
+      <section className="py-10 bg-gray-50 border-t border-gray-100">
+        <div className="max-w-5xl mx-auto px-4">
+          <Link href="/services/chiropractic-red-light-therapy"
+            className="flex items-center justify-between bg-white hover:bg-[#E8F4FB] rounded-xl px-6 py-5 border border-gray-100 hover:border-[#1A5FA8]/20 transition-all group">
+            <div>
+              <p className="text-xs font-bold text-[#1A5FA8] uppercase tracking-widest mb-1">Combo Services</p>
+              <p className="font-bold text-gray-900">Pair Your Adjustment with Red Light Therapy</p>
+              <p className="text-gray-500 text-sm mt-0.5">How chiropractic + the Prism Light Pod work together for faster recovery and better outcomes</p>
+            </div>
+            <ArrowRight size={18} className="text-[#1A5FA8] shrink-0 ml-4 group-hover:translate-x-0.5 transition-transform" />
+          </Link>
         </div>
       </section>
 

@@ -21,6 +21,7 @@ export default function Footer() {
               ["Chiropractic Care", "/services/chiropractic"],
               ["Acupuncture", "/services/acupuncture"],
               ["Red Light Therapy", "/services/red-light-therapy"],
+              ["Combo Services", "/services/chiropractic-red-light-therapy"],
               ["Massage Therapy", "/services/massage-therapy"],
               ["Auto Accident Care", "/personal-injury"],
               ["Our Team", "/team"],
@@ -28,6 +29,7 @@ export default function Footer() {
               ["Patient Reviews", "/reviews"],
               ["FAQ", "/faq"],
               ["Contact", "/contact"],
+              ["Ravenna Chiropractor", "/ravenna-chiropractor"],
               ["Book Appointment", "/appointments-v2"],
             ].map(([label, href]) => (
               <li key={label}>

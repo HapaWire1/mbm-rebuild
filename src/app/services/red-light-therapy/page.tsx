@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { CalendarCheck, Phone, CheckCircle, Zap, Clock, Activity, ShieldCheck, Cpu, Leaf } from "lucide-react";
+import { CalendarCheck, Phone, CheckCircle, Zap, Clock, Activity, ShieldCheck, Cpu, Leaf, ArrowRight, Sun } from "lucide-react";
 
 export const metadata = {
   title: { absolute: "Red Light Therapy Seattle | Prism Light Pod | MindBody Med" },
@@ -309,6 +309,10 @@ export default function RedLightTherapyPage() {
             <BookBtn />
             <CallBtn />
           </div>
+          <Link href="/services/chiropractic-red-light-therapy"
+            className="inline-flex items-center gap-1.5 text-amber-400 hover:text-amber-300 font-semibold text-sm mt-6 transition-colors">
+            Learn how chiropractic + RLT work together <ArrowRight size={14} />
+          </Link>
         </div>
       </section>
 
@@ -330,6 +334,24 @@ export default function RedLightTherapyPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── Related Reading ──────────────────────────────────── */}
+      <section className="py-12 bg-[#E8F4FB]">
+        <div className="max-w-3xl mx-auto px-4">
+          <p className="text-[#1A5FA8] font-bold uppercase tracking-widest text-xs mb-5">Related Reading</p>
+          <Link href="/blog/red-light-therapy-seasonal-depression-seattle"
+            className="flex items-center gap-5 bg-white hover:bg-[#f0f7ff] rounded-2xl px-7 py-6 border border-[#1A5FA8]/15 hover:border-[#1A5FA8]/40 shadow-sm hover:shadow-md transition-all group">
+            <div className="w-12 h-12 rounded-xl bg-[#1A5FA8] flex items-center justify-center shrink-0">
+              <Sun size={22} className="text-white" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="font-bold text-gray-900">Red Light Therapy for Seasonal Depression in Seattle</p>
+              <p className="text-gray-500 text-sm mt-1">How photobiomodulation can help with SAD and winter blues in the Pacific Northwest</p>
+            </div>
+            <ArrowRight size={18} className="text-[#1A5FA8] shrink-0 group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
       </section>
 

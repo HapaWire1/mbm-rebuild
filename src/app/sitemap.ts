@@ -25,6 +25,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/reviews`,                             lastModified: now, changeFrequency: "weekly",  priority: 0.6 },
     { url: `${base}/insurance`,                           lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/contact`,                             lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${base}/appointments-v2`,                      lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/appointments-v2`,                                            lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/services/chiropractic-red-light-therapy`,                    lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/ravenna-chiropractor`,                                        lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/blog/red-light-therapy-seasonal-depression-seattle`,          lastModified: now, changeFrequency: "monthly", priority: 0.7 },
   ];
 }
